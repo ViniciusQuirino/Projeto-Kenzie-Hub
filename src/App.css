@@ -1,0 +1,31 @@
+body {
+	background-color: var(--grey-4)
+}
+
+.App {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-width: 1200px;
+	margin: 0 auto 2.4rem auto;
+}
+
+.App h1 {
+	font-size: 35px;
+	color: var(--color-primary);
+	font: var(--font-title-0);
+	margin: 1.7rem 0;
+	animation-name: logo;
+	animation-duration: 700ms;
+}
+
+@keyframes logo {
+	from {
+		transform: translateY(-40px);
+	}
+
+	to {
+		transform: translateY(0px);
+	}
+}
