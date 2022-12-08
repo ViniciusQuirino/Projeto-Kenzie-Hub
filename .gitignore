@@ -27,3 +27,5 @@ dist-ssr
 
 # production
 /build
+
+.vercel

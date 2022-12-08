@@ -50,7 +50,6 @@ export interface iFormLogin {
 
 export const UserContext = createContext({} as iUserContext)
 
-
 const Providers = ({ children }: iProvidersProps) => {
     const [globalLoading, setGlobalLoading] = useState<boolean>(false);
     const [userData, setUserData] = useState<iUserData>({} as iUserData)
@@ -58,7 +57,6 @@ const Providers = ({ children }: iProvidersProps) => {
     const [currentRoute, setCurrentRoute] = useState<string | null>(null);
     const [li, setLi] = useState(false)
     const navigate = useNavigate()
-
 
     const token = localStorage.getItem("@KenzieHub:token")
 
